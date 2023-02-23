@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import theme from '@/styles/theme';
+import Image from "next/image";
 
 export const ContainerSection = styled.div`
   display: flex;
@@ -82,7 +83,7 @@ export const SocialMedias = styled.div`
 
   height: 7rem;
 
-  img {
+  div {
     cursor: pointer;
     transition: 0.8s;
     width: 5rem;
@@ -106,4 +107,9 @@ export const DevIcon = styled.div`
   height: 30rem;
 
   display: block;
+`;
+
+export const ImageComponent = styled(Image)`
+  width: 6rem;
+  height: 6rem;
 `;

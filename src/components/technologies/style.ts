@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import theme from '@/styles/theme';
+import Image from "next/image";
 
 export const Container = styled.div`
 background-color: ${theme.primaryColor};
@@ -81,4 +82,9 @@ export const Technologies = styled.div`
    gap: 2rem;
 
   }
+`;
+
+export const ImageComponent = styled(Image)`
+  width: 6rem;
+  height: 6rem;
 `;

@@ -1,31 +1,60 @@
-import {ContainerSection, FirstSectionAside, SocialMedias, DevIcon} from './style'
-import IconWhatsApp from '../../assets/iconwhatsapp.svg'
+import { ContainerSection, FirstSectionAside, SocialMedias, DevIcon, ImageComponent } from './style'
 
 export default function Home() {
-    return (
-     
-      <ContainerSection id='s-home' >
+  return (
 
-        <FirstSectionAside>
-          <p>Olá, eu sou</p>
-          <h1>{'Thierry Castro'}</h1>
-          <h2>DESENVOLVEDOR FULL-STACK</h2>
-          <SocialMedias>
+    <ContainerSection id='s-home' >
 
-          <img src="/icons/iconlinkedin.svg" alt="" />
-          <img src="/icons/icongithub.svg" alt="" />
-          <img src="/icons/iconwhatsapp.svg" alt="" />
+      <FirstSectionAside>
+        <p>Olá, eu sou</p>
+        <h1>{'Thierry Castro'}</h1>
+        <h2>DESENVOLVEDOR FULL-STACK</h2>
+        <SocialMedias>
 
-          </SocialMedias>
-          <button>Curriculo</button>
+          <div>
 
-        </FirstSectionAside>
-        <DevIcon className="devicon" >
-         <img src="/icons/Programming-amico.svg" alt="" /> 
-        </DevIcon>
+            <ImageComponent
+              width={100}
+              height={100}
+              layout="responsive"
+              src="/icons/iconlinkedin.svg"
+              alt="" />
+          </div>
 
-      </ContainerSection>
+          <div>
+            <ImageComponent
+              width={100}
+              height={100}
+              layout="responsive"
+              src="/icons/icongithub.svg"
+              alt="" />
+          </div>
+          <div>
+            <ImageComponent
+              width={100}
+              height={100}
+              layout="responsive"
+              src="/icons/iconwhatsapp.svg"
+              alt="" />
+          </div>
 
-    )
-  }
-  
+
+
+
+        </SocialMedias>
+        <button>Curriculo</button>
+
+      </FirstSectionAside>
+      <DevIcon className="devicon" >
+        <ImageComponent
+          width={100}
+          height={100}
+          layout="responsive"
+          src="/icons/Programming-amico.svg"
+          alt="" />
+      </DevIcon>
+
+    </ContainerSection>
+
+  )
+}

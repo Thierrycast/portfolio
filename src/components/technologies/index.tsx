@@ -1,4 +1,4 @@
-import { Container, Technologies, Wrap } from './style'
+import { Container, Technologies, Wrap, ImageComponent } from './style'
 
 interface Technologie {
   id: number;
@@ -79,7 +79,12 @@ export default function TechnologiesSection() {
         <Technologies>
           {technologies.map(item => (
             <div key={item.id} >
-              <img src={item.url} alt="" />
+              <ImageComponent
+              width={100}
+              height={100}
+              layout="responsive"
+              src={item.url}
+              alt="" />
               <span>{item.name}</span>
             </div>
           ))}

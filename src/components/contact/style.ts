@@ -1,5 +1,6 @@
 import styled from "styled-components";
-import theme from '@/styles/theme';
+import theme from "@/styles/theme";
+import Image from "next/image";
 
 export const Container = styled.div`
   width: 100%;
@@ -23,15 +24,12 @@ export const Container = styled.div`
   }
 
   @media screen and (max-width: 768px) {
-    
     padding: 1rem 2rem;
     justify-content: center;
-    
 
-    h1{
+    h1 {
       text-align: center;
     }
-
   }
 `;
 
@@ -75,7 +73,7 @@ export const SendEmail = styled.div`
     height: 4rem;
   }
 
-  textarea{
+  textarea {
     width: 100%;
     height: 16rem;
   }
@@ -119,12 +117,11 @@ export const SendEmail = styled.div`
 
     @media screen and (max-width: 768px) {
       width: 100%;
-    height: 6rem;
+      height: 6rem;
 
-    &:hover {
-      width: 100%;
-      
-    }
+      &:hover {
+        width: 100%;
+      }
     }
   }
 
@@ -133,7 +130,6 @@ export const SendEmail = styled.div`
     transition: 0.5s;
   }
 `;
-
 
 export const SocialMedias = styled.div`
   width: 40rem;
@@ -160,10 +156,9 @@ export const SocialMedias = styled.div`
     border: 0.1rem solid #101013;
     border-radius: 1rem;
 
-    img {
-      width: 6rem;
-      height: 6rem;
-    }
+    padding: 3rem;
+
+    
 
     &:hover {
       transition: 0.5s;
@@ -181,10 +176,13 @@ export const SocialMedias = styled.div`
       height: 7rem;
       width: 7rem;
 
-      img {
-        height: 4rem;
-        width: 4rem;
-      }
+      padding: 1.5rem;
+
+      border: 0.1rem solid #3554f9;
     }
   }
+`;
+
+export const ImageComponent = styled(Image)`
+  
 `;
