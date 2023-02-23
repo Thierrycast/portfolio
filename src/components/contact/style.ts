@@ -13,7 +13,7 @@ export const Container = styled.div`
   justify-content: space-between;
 
   h1 {
-    color: #3554f9;
+    color: ${theme.blueVariant};
     margin-bottom: 4rem;
     font-size: 3rem;
     font-weight: 500;
@@ -103,7 +103,7 @@ export const SendEmail = styled.div`
     font-size: 1.8rem;
     font-weight: 400;
     color: #fff;
-    background: #3554f9;
+    background: ${theme.blueVariant};
     border: none;
     border-radius: 0.4rem;
     margin-top: 2rem;
@@ -126,7 +126,7 @@ export const SendEmail = styled.div`
   }
 
   &:hover {
-    border: 0.1rem solid #3554f9;
+    border: 0.1rem solid ${theme.blueVariant};
     transition: 0.5s;
   }
 `;
@@ -162,7 +162,7 @@ export const SocialMedias = styled.div`
 
     &:hover {
       transition: 0.5s;
-      border: 0.1rem solid #3554f9;
+      border: 0.1rem solid ${theme.blueVariant};
     }
   }
 
@@ -178,7 +178,7 @@ export const SocialMedias = styled.div`
 
       padding: 1.5rem;
 
-      border: 0.1rem solid #3554f9;
+      border: 0.1rem solid ${theme.blueVariant};
     }
   }
 `;

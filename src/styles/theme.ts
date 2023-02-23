@@ -5,5 +5,6 @@ const theme = {
     blueVariant:'#3554f9'
     
   };
+
   
   export default theme;

@@ -11,7 +11,7 @@ const technologies: Technologie[] = [
   {
     id: 1,
     name: "TypeScript",
-    url: "/technology-icons/Typescript.svg"
+    url: "/technology-icons/typescript.svg"
   },
   {
     id: 2,

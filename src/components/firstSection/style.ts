@@ -40,7 +40,7 @@ export const FirstSectionAside = styled.div`
     font-style: normal;
     font-weight: 500;
     font-size: 7.2rem;
-    background: linear-gradient(to right, #413aff, #1590e8);
+    background: ${theme.blueVariant};
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -61,7 +61,7 @@ export const FirstSectionAside = styled.div`
     font-weight: 400;
 
     color: #fff;
-    background: #313aff;
+    background: ${theme.blueVariant};
 
     backdrop-filter: blur(1rem);
     padding: 2rem 3.2rem;
@@ -88,7 +88,7 @@ export const SocialMedias = styled.div`
     transition: 0.8s;
     width: 5rem;
     height: 5rem;
-    background-color: #413aff;
+    background-color: ${theme.blueVariant};
     padding: 0.1rem;
     border-radius: 50%;
 

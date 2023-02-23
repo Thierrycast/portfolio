@@ -26,7 +26,7 @@ export const AboutContainer = styled.div`
     border-radius: 0.4rem;
 
     h1{
-      color: #3554f9;
+      color: ${theme.blueVariant};
       font-weight: 500;
       margin-bottom: 3rem;
     }
@@ -34,6 +34,7 @@ export const AboutContainer = styled.div`
     p{
       font-size: 1.8rem;
       margin-bottom: 2rem;
+      color: ${theme.textColor};
     }
 
     

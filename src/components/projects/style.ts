@@ -12,7 +12,7 @@ gap: 6rem;
 
 
 h1 {
-    color: #3554f9;
+    color: ${theme.blueVariant};
     font-weight: 500;
     margin-bottom: 6rem;
     font-size: 3rem;
@@ -50,7 +50,7 @@ border: 0.2rem solid #101013;
 
     &:hover {
       transition: 0.5s;
-      border: 0.1rem solid #3554f9;
+      border: 0.1rem solid ${theme.blueVariant};
     }
 
 span{

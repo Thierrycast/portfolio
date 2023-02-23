@@ -25,7 +25,7 @@ export const Wrap = styled.div`
  
 
   h1 {
-    color: #3554f9;
+    color: ${theme.blueVariant};
     font-weight: 500;
     margin-bottom: 6rem;
     font-size: 2rem;

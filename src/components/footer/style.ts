@@ -14,7 +14,7 @@ background-color: ${theme.secondaryColor};
 h1{
     font-size: 1.8rem;
     font-weight: 300;
-    color: #d8d8d8;
+    color: ${theme.textColor};
 }
 
 @media screen and (max-width: 768px) {

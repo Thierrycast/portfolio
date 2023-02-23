@@ -66,12 +66,12 @@ export const Logo = styled.div`
   font-size: 2.2rem;
 
   p {
-    color: #d8d8d8;
+    color: ${theme.textColor};
     margin-right: 0.6rem;
   }
 
   span {
-    background: linear-gradient(to right, #413aff, #1590e8);
+    background: ${theme.blueVariant};
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -89,7 +89,7 @@ export const Menu = styled.ul`
 
     a {
       text-decoration: none;
-      color: #d8d8d8;
+      color: ${theme.textColor};
       position: relative;
 
       &:hover {
@@ -103,7 +103,7 @@ export const Menu = styled.ul`
         left: 0;
         right: 0;
         height: 0.1rem;
-        background: linear-gradient(to right, #101013, #1590e8);
+        background: linear-gradient(to right, #101013, ${theme.blueVariant});
         transform: scaleX(0);
         transform-origin: right;
         transition: transform 0.4s ease-out;
@@ -197,7 +197,7 @@ export const ModalMenu = styled.div`
 
       a {
         text-decoration: none;
-        color: #d8d8d8;
+        color: ${theme.textColor};
       }
     }
   }
