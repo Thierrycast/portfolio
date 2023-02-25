@@ -10,7 +10,7 @@ export default function AboutSection() {
 
         <p>Estou cursando Análise e Desenvolvimento de Sistemas (ADS). Também cursei Desenvolvimento de Software Fullstack na Cubos Academy, onde tive uma experiência intensiva e enriquecedora.</p>
 
-        <p> Além disso, atuei como Entrevistador Técnico na Cubos Academy, avaliando candidatos durante o processo seletivo, realizando entrevistas e análises de códigos submetidos, e oferecendo feedback construtivo para melhorar a performance dos candidatos.</p>
+        <p> Além disso, atuei como Entrevistador Técnico na Cubos Academy, avaliando candidatos durante o processo seletivo, realizando entrevistas e análises de códigos submetidos.</p>
       </div>
 
     </AboutContainer>

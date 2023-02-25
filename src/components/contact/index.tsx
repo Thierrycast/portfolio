@@ -1,4 +1,5 @@
 import { Container, Wrap, SendEmail, SocialMedias, ImageComponent } from './style'
+import Link from 'next/link'
 
 export default function Contacts() {
   return (
@@ -14,42 +15,53 @@ export default function Contacts() {
           <input type="text" placeholder='Email' />
           <textarea style={{ resize: "none" }} placeholder='Mensagem' ></textarea>
 
-          <button>enviar</button>
+          <button  >enviar</button>
 
         </SendEmail>
         <SocialMedias>
-          <div>
-            <ImageComponent
-              width={100}
-              height={100}
-              layout="responsive"
-              src="/icons/icondiscord2.svg"
-              alt="" />
-          </div>
-          <div>
-            <ImageComponent
-              width={100}
-              height={100}
-              layout="responsive"
-              src="/icons/iconwhatsapp2.svg"
-              alt="" />
-          </div>
-          <div>
-            <ImageComponent
-              width={100}
-              height={100}
-              layout="responsive"
-              src="/icons/icongithub2.svg"
-              alt="" />
-          </div>
-          <div>
-            <ImageComponent
-              width={100}
-              height={100}
-              layout="responsive"
-              src="/icons/iconlinkedin2.svg"
-              alt="" />
-          </div>
+          <Link href="mailto:thierrybarretodecastro@gmail.com" >
+            <div>
+              <ImageComponent
+                width={100}
+                height={100}
+                layout="responsive"
+                src="/icons/iconemail.svg"
+                alt="" />
+            </div>
+          </Link>
+
+          <Link target="_blank" href="https://wa.me/5533999595927" >
+            <div>
+              <ImageComponent
+                width={100}
+                height={100}
+                layout="responsive"
+                src="/icons/iconwhatsapp2.svg"
+                alt="" />
+            </div>
+          </Link>
+
+          <Link target="_blank" href="https://github.com/Thierrycast" >
+            <div>
+              <ImageComponent
+                width={100}
+                height={100}
+                layout="responsive"
+                src="/icons/icongithub2.svg"
+                alt="" />
+            </div>
+          </Link>
+
+          <Link target="_blank" href="https://www.linkedin.com/in/thierry-castro" >
+            <div>
+              <ImageComponent
+                width={100}
+                height={100}
+                layout="responsive"
+                src="/icons/iconlinkedin2.svg"
+                alt="" />
+            </div>
+          </Link>
 
         </SocialMedias>
       </Wrap>
