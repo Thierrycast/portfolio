@@ -5,7 +5,7 @@ import Image from "next/image";
 export const Container = styled.div`
 background-color: ${theme.primaryColor};
 padding: 9rem 0 0 0;
-height: 100vh;
+min-height: 100vh;
 
 
 `
@@ -42,12 +42,13 @@ export const Wrap = styled.div`
 `;
 
 export const Technologies = styled.div`
-  height: 200rem;
+  
   width: 100%;
   gap: 10rem;
 
   display: flex;
   align-items: center;
+  
   
   flex-wrap: wrap;
 

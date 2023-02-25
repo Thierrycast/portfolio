@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import theme from '@/styles/theme';
+import styled, { keyframes } from "styled-components";
+import theme from "@/styles/theme";
 import Image from "next/image";
 
 export const ContainerSection = styled.div`
@@ -22,6 +22,7 @@ export const ContainerSection = styled.div`
     }
   }
 `;
+
 
 export const FirstSectionAside = styled.div`
   width: 60rem;
@@ -54,8 +55,6 @@ export const FirstSectionAside = styled.div`
   }
 
   button {
-    transition: 0.8s;
-
     margin-top: 2rem;
     font-size: 1.8rem;
     font-weight: 400;
@@ -68,10 +67,14 @@ export const FirstSectionAside = styled.div`
     width: 25rem;
     border-radius: 0.4rem;
 
+    transition: 0.8s;
+
     &:hover {
       transition: 0.8s;
-      width: 27rem;
+      width: 26rem
     }
+
+   
   }
 `;
 
@@ -85,7 +88,7 @@ export const SocialMedias = styled.div`
 
   div {
     cursor: pointer;
-    transition: 0.8s;
+
     width: 5rem;
     height: 5rem;
     background-color: ${theme.blueVariant};
@@ -93,9 +96,7 @@ export const SocialMedias = styled.div`
     border-radius: 50%;
 
     &:hover {
-      transition: 0.8s;
-
-      scale: 1.1;
+      scale: 1.02;
     }
   }
 `;
