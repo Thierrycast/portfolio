@@ -1,38 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio
+Este é o meu portfolio web desenvolvido utilizando as tecnologias Next.js, TypeScript e Styled Components. Ele foi criado para demonstrar as minhas habilidades de desenvolvimento web e apresentar os meus projetos mais recentes.
 
-## Getting Started
+## Tecnologias Utilizadas
+- Next.js: é um framework de desenvolvimento web React que permite criar aplicativos web com renderização do lado do servidor. Ele oferece recursos avançados, como geração de páginas estáticas, pre-renderização e roteamento dinâmico.<br><br>
 
-First, run the development server:
+- TypeScript: é uma linguagem de programação que adiciona tipos estáticos ao JavaScript, facilitando a detecção de erros e tornando o código mais seguro e legível.<br><br>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- Styled Components: é uma biblioteca para React que permite escrever estilos em JavaScript. Ela oferece recursos poderosos, como estilos baseados em props, animações e temas.<br><br>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Funcionalidades
+O meu portfolio web apresenta as seguintes funcionalidades:
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- Apresentação: a página inicial contém uma breve apresentação sobre mim e minhas habilidades como desenvolvedor web.<br>
+- Tecnologias: a página de tecnologias apresenta todas as tecnologias que trabalho, incluindo linguagens de programação, frameworks, bibliotecas e ferramentas de desenvolvimento.<br>
+- Projetos: a página de projetos apresenta alguns dos meus projetos mais recentes, com informações sobre as tecnologias utilizadas, a descrição do projeto e um link para acessá-lo.<br>
+- Contato: a página de contato contém um formulário para enviar mensagens diretamente para mim.<br><br>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Deploy
+O projeto está disponível para visualização no seguinte link: https://portfolio-thierrycast.vercel.app/
+<br>
+(ainda em construção)
